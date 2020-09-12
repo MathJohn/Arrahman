@@ -1,0 +1,161 @@
+body{
+	background-color: black;
+}
+.navbar{
+  z-index: 1;
+}
+.navbar a{
+  font-family: 'Courier Prime', monospace;
+  font-weight: bold;  
+  color: black;
+  background-color: #ff4e00;
+  background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+  border:3px solid white;
+  padding: 3px;
+  margin-left: 4px;
+}
+.jumbotron{
+  background-color: black;
+}
+
+.navbar a:hover{
+  background-color: white;
+  border-color: black;
+  border-color: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+}
+#navindex a:hover{
+  background-color: white;
+  border-color: #ff4e00;
+  border-color: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+
+}
+.navbar-toggler, .navbar-toggler-icon {
+   border-color: #ff4e00;
+   border-color: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%) !Important;
+} 
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+#background{
+  background-image: url(bg.jpg); 
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  background-color: black;
+  height: 700px;
+  background-position: center;
+}
+.border-left, .border-right{
+  border-width: 10px !Important;
+  border-color:black!Important;
+  background: -webkit-linear-gradient(#380036, #ff4e00);
+  -webkit-background-clip: border;
+  -webkit-border-fill-color: transparent;
+  color: linear-gradient(315deg, #33ccff 0%, #000000 74%);
+  font-family: 'Courier Prime', monospace;
+}
+
+h1{
+  background: -webkit-linear-gradient(#FFFFFF, #FFFFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: linear-gradient(315deg, #FFFFFF 0%, #FFFFFF 74%);
+  font-family: 'Courier Prime', monospace;
+}
+h2{
+  font-weight: bold;
+  background: -webkit-linear-gradient(#FFFFFF, #FFFFFF);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color: transparent;
+  color:linear-gradient(314deg,  #380036 0%, #0CBABA 74%);
+  font-family: 'Courier Prime', monospace;
+}
+button a{
+  color:white;
+  cursor: ne-resize;
+}
+button a:hover{
+  color:white;
+  cursor: ne-resize;
+}
+ul a{
+  background-color: #ff4e00;
+  background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+}
+.pagination a{
+  color:black;
+  font-family: 'Courier Prime', monospace;
+  font-weight: bold;
+}
+.pagination > .disabled > a{
+  color: white !Important;
+  opacity: 50% !Important;
+}
+.pagination a:hover{
+  color:black;
+  border:3px solid white;
+}
+.pagination > .active > a
+{
+    color: white;
+    border: solid 2px black !Important;
+}
+.pagination > .active > a:hover
+{
+    color: white;
+    border: solid 2px white !Important;
+}
+.card-title{
+  font-family: 'Courier Prime',monospace;
+  font-weight: bold;
+  background: -webkit-linear-gradient(#ff4e00, #ec9f05);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+}
+.card-body p{
+  font-family: 'Courier Prime',monospace;
+  font-weight: bold;
+  background: -webkit-linear-gradient(#33ccff, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: linear-gradient(270deg, #33ccff 0%, #000000 74%);
+}
+
+
+.btn-info{
+  font-weight: bold;
+  background-color: #0CBABA !Important; 
+  background-image: linear-gradient(315deg, #380036 0%, #0CBABA 74%) !Important;
+}
+
+.btn-info a{
+  color:black;
+}
+
+.fa {
+  font-size: 20px;
+  text-decoration: none;
+  opacity: 0.8;
+}
+.fa-hover{
+  opacity: 1;
+}
+.fa-facebook {
+  color: #3B5998;
+}
+
+.fa-twitter {
+  color: #55ACEE;
+}
+
+.fa-youtube {
+
+  color: #bb0000;
+}
+
+.fa-instagram {
+  color: #125688;
+}
